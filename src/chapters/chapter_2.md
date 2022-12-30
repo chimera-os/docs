@@ -8,7 +8,7 @@ LFS relies on a host system to build the distribution. It is not recommended to 
 
 - [ ] **Operating system:** Ubuntu 22.04.1 LTS (see [Ubuntu's official website](https://ubuntu.com/download/desktop) to download the `.iso` file).
 - [ ] **Virtualization platform:** Oracle VM VirtualBox (see [VirtualBox' official website](https://www.virtualbox.org) to download the product).
-- [ ] **VM Stats**: 30GB virtual hard drive (for the host sytem), at least 4GB of RAM, at least 2 virtual CPU, 40GB (min. 10GB[^1]) virtual hard drive (for LFS)
+- [ ] **VM Stats**: 15GB virtual hard drive (for the host sytem), at least 4GB of RAM, at least 2 virtual CPU, 40GB (min. 10GB[^1]) virtual hard drive (for LFS)
 
 ## VirtualBox VM setup script
 
