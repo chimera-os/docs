@@ -8,13 +8,9 @@ When we download software, we need to verify two things before installing: The i
 
 For that purpose we use *checksums* (see [Wikipedia](https://en.wikipedia.org/wiki/Checksum) for more information). All Linux distribution provide at least `md5sum`, `sha1sum` and `sha256sum` to generate checksums. Use `gpg`-keys to check the signature of a file. This task is usually done by your package manager, but when installing from source, this is your responsability to check if you have downloaded the right package. Read [https://www.linux.org/threads/verify-your-downloads-integrity-and-signatures.34282/](https://www.linux.org/threads/verify-your-downloads-integrity-and-signatures.34282/) for detailled instructions on how to check the signature and checksums of a file.
 
----
-
 ## Unpacking archives using `tar` & `gzip`
 
 To unpack archives (or "tarballs"), use the [`tar`](https://www.gnu.org/software/tar/) utility by typing `tar xvf <filename>`. Remove the `v` option to silence the output. This works for `tar.gz`, `tar.xz` and `.bz2` archives. Alternatively you can use `gzip -cd <filename> | tar xvf -`.
-
----
 
 ## Applying patches using `patch` & `diff`
 

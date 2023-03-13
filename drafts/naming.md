@@ -4,4 +4,4 @@
 - [ ] Echidna &rarr; shell = `nushell` + std. `bash`.
 - [ ] BSPWM as WM + GUI interface for configuration (`bspc` + `sxhkd`)
 
-Shell = like Nushell, package manager = like Pacman
+Shell = like Nushell, using Python as scripting language, package manager = like Pacman
